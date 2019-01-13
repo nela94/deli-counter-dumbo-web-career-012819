@@ -1,4 +1,5 @@
-def line(current_line)
-  other_deli = ["Logan", "Avi", "Spencer"]
-  other_deli.push(1..3)
+def line(katz_deli)
+  katz_deli = []
+  puts "The line is currently empty."
 end
+
