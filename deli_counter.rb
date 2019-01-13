@@ -8,5 +8,5 @@ def line(katz_deli)
        current_line << "#{i}. #{customer}"
      end
    end
-   current_line
+   puts current_line
 end
