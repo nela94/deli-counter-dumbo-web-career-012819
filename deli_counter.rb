@@ -1,5 +1,5 @@
 def line(katz_deli)
-   if katz_deli.empty?
+   if katz_deli = []
      puts "The line is currently empty."
    else
      current_line = "The line is currently:"
@@ -7,5 +7,5 @@ def line(katz_deli)
        current_line.push("#{i}. #{customer}")
 end
 end
-puts current_line
+ current_line
 end
